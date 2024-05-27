@@ -1,0 +1,133 @@
+import tmtSteel from "../../../public/img/tmtSteel.png";
+import resistantSteel from "../../../public/img/resistantSteel.png";
+import mixConcrete from "../../../public/img/mixConcrete.png";
+import structuralSteel from "../../../public/img/structuralSteel.png";
+
+export const catalogDatajson = {
+  steel: [
+    {
+      id: 1,
+      image: tmtSteel,
+      heading: "High Grade TMT Steel Bars",
+      altText: "grade cement",
+      desc: "OPC 53 grade 43 grade cement provide long-lasting durabilty...",
+      buttontext: "Request for Quote",
+    },
+    {
+      id: 2,
+      image: resistantSteel,
+      heading: "Corrosion Resistant Steel",
+      altText: "grade cement",
+      desc: "OPC 53 grade 43 grade cement provide long-lasting durabilty...",
+      buttontext: "Request for Quote",
+    },
+    {
+      id: 3,
+      image: mixConcrete,
+      heading: "Ready Mix Concrete",
+      altText: "grade cement",
+      desc: "OPC 53 grade 43 grade cement provide long-lasting durabilty...",
+      buttontext: "Request for Quote",
+    },
+    {
+      id: 4,
+      image: structuralSteel,
+      heading: "Structural Steel",
+      altText: "grade cement",
+      desc: "OPC 53 grade 43 grade cement provide long-lasting durabilty...",
+      buttontext: "Request for Quote",
+    },
+    {
+      id: 5,
+      image: structuralSteel,
+      heading: "Structural Steel",
+      altText: "grade cement",
+      desc: "OPC 53 grade 43 grade cement provide long-lasting durabilty...",
+      buttontext: "Request for Quote",
+    },
+  ],
+  rmc: [
+    {
+      id: 1,
+      image: tmtSteel,
+      heading: "High Grade TMT Steel Bars",
+      altText: "grade cement",
+      desc: "OPC 53 grade 43 grade cement provide long-lasting durabilty...",
+      buttontext: "Request for Quote",
+    },
+    {
+      id: 2,
+      image: resistantSteel,
+      heading: "Corrosion Resistant Steel",
+      altText: "grade cement",
+      desc: "OPC 53 grade 43 grade cement provide long-lasting durabilty...",
+      buttontext: "Request for Quote",
+    },
+    {
+        id: 3,
+        image: mixConcrete,
+        heading: "Ready Mix Concrete",
+        altText: "grade cement",
+        desc: "OPC 53 grade 43 grade cement provide long-lasting durabilty...",
+        buttontext: "Request for Quote",
+      },
+    {
+      id: 4,
+      image: structuralSteel,
+      heading: "Structural Steel",
+      altText: "grade cement",
+      desc: "OPC 53 grade 43 grade cement provide long-lasting durabilty...",
+      buttontext: "Request for Quote",
+    },
+    {
+      id: 5,
+      image: structuralSteel,
+      heading: "Structural Steel",
+      altText: "grade cement",
+      desc: "OPC 53 grade 43 grade cement provide long-lasting durabilty...",
+      buttontext: "Request for Quote",
+    },
+  ],
+  aac: [
+    {
+      id: 1,
+      image: tmtSteel,
+      heading: "High Grade TMT Steel Bars",
+      altText: "grade cement",
+      desc: "OPC 53 grade 43 grade cement provide long-lasting durabilty...",
+      buttontext: "Request for Quote",
+    },
+    {
+      id: 2,
+      image: resistantSteel,
+      heading: "Corrosion Resistant Steel",
+      altText: "grade cement",
+      desc: "OPC 53 grade 43 grade cement provide long-lasting durabilty...",
+      buttontext: "Request for Quote",
+    },
+    {
+      id: 3,
+      image: mixConcrete,
+      heading: "Ready Mix Concrete",
+      altText: "grade cement",
+      desc: "OPC 53 grade 43 grade cement provide long-lasting durabilty...",
+      buttontext: "Request for Quote",
+    },
+    {
+      id: 4,
+      image: structuralSteel,
+      heading: "Structural Steel",
+      altText: "grade cement",
+      desc: "OPC 53 grade 43 grade cement provide long-lasting durabilty...",
+      buttontext: "Request for Quote",
+    },
+    {
+      id: 5,
+      image: structuralSteel,
+      heading: "Structural Steel",
+      altText: "grade cement",
+      desc: "OPC 53 grade 43 grade cement provide long-lasting durabilty...",
+      buttontext: "Request for Quote",
+    },
+  ],
+};

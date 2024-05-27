@@ -1,0 +1,43 @@
+.Catalog_steel_maping {
+  display: flex;
+  column-gap: 16px;
+}
+
+.Catalog_heading {
+  font: normal normal bold 12px/24px Rubik;
+  color: #000000;
+  padding-top: 16px;
+}
+.Catalog_content {
+  font: normal normal normal 14px/18px Rubik;
+  color: #1f2137;
+  padding: 18px 0px;
+}
+.Catalog_content_color {
+  font: normal normal normal 14px/18px Rubik;
+  letter-spacing: 0px;
+  color: #0982ff;
+}
+.Catalog_btn {
+  color: #d9232d;
+  border: 1px solid #d9232d;
+  font: normal normal normal 16px/24px Rubik;
+  width: 100%;
+  height: 48px;
+  text-align: center;
+  border-radius: 5px;
+  background: #ffffff;
+}
+
+@media (max-width: 720px) {
+  .Catalog_steel_maping {
+    display: flex;
+    flex-direction: column;
+  }
+  .Catalog_box {
+    margin-top: 30px;
+  }
+  .CatalogData_image {
+    width: 100%;
+  }
+}

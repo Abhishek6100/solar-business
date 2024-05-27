@@ -1,0 +1,129 @@
+.ConstructionMaterial_background {
+  background-image: url("../../../public/img/dotted_background.svg");
+}
+.ConstructionMaterial_container {
+  display: flex;
+  width: 100%;
+  padding: 96px 0px 120px 0px;
+  column-gap: 80px;
+}
+.ConstructionMaterial_leftbox {
+  width: 55%;
+}
+.ConstructionMaterial_rightbox {
+  width: 45%;
+  height: 100%;
+}
+.heading {
+  font: normal normal medium 18px/22px Rubik;
+  color: #d9232d;
+}
+
+.ConstructionMaterial_text {
+  font: normal normal bold 38px/46px Rubik;
+  color: #1f2137;
+  padding: 15px 0px 0px 0px;
+}
+.ConstructionMaterial_about {
+  font: normal normal normal 24px/40px Rubik;
+  color: #1f2137;
+  padding: 20px 0px 30px 0px;
+}
+
+.ConstructionMaterial_box {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 30px;
+}
+.ConstructionMaterial_boxsize {
+  width: 250px;
+  height: 155px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 8px 40px #00000029;
+  border: 1px solid #d9d9d9;
+  opacity: 1;
+}
+
+.count {
+  font: normal normal 600 34px/41px Rubik;
+  letter-spacing: 0px;
+  color: #3c3c3c;
+  padding: 42px 0px 0px 30px;
+}
+
+.Categories {
+  font: normal normal normal 16px/24px Rubik;
+  color: #000000;
+  padding: 10px 0px 0px 30px;
+}
+
+.ConstructionMaterial_btn {
+  font: normal normal bold 16px/19px Rubik;
+  color: #ffffff;
+  background-color: #d9232d;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 1;
+  border: none;
+  padding: 15px 20px;
+}
+
+@media (max-width:1400px) {
+  .ConstructionMaterial_container {
+    display: flex;
+    width: 100%;
+    padding: 96px 0px 120px 0px;
+    column-gap: 65px;
+  }
+  .ConstructionMaterial_rightbox{
+    height: 720px;
+    display: contents;
+  }
+  
+}
+@media (max-width: 1280px) {
+  .ConstructionMaterial_container {
+    display: flex;
+    width: 100%;
+    padding: 96px 0px 120px 0px;
+    column-gap: 40px;
+  }
+  .ConstructionMaterial_rightbox{
+    height: 720px;
+    display: contents;
+  }
+}
+@media (max-width: 720px) {
+  .ConstructionMaterial_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 96px 14px 120px 14px;
+    row-gap: 50px;
+  }
+  .ConstructionMaterial_box{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 30px;
+    flex-direction: column;
+  }
+  .count {
+    padding: 42px 0px 0px 20px;
+  }
+  .Categories {
+    font: normal normal normal 16px/24px Rubik;
+    color: #000000;
+    padding: 10px 0px 0px 20px;
+  }
+  .ConstructionMaterial_rightbox{
+    width: 100%;
+  }
+  .ConstructionMaterial_leftbox {
+    width: 100%;
+  }
+  .ConstructionMaterial_rightbox {
+    width: 100%;
+  }
+}
+
+

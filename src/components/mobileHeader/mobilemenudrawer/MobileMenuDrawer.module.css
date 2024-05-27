@@ -1,0 +1,18 @@
+.Drawer_container {
+  padding: 24px;
+}
+
+.Drawer_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.Drawer_heading {
+  font: normal normal 600 14px/17px Rubik;
+  letter-spacing: 0px;
+  color: #1f2137;
+  padding: 10px 0px;
+}
+.Drawer_image {
+  width: 24px;
+  margin-top: 5px;
+}

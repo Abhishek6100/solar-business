@@ -1,0 +1,32 @@
+.MobileHeader_container {
+  display: flex;
+  padding: 14px 14px;
+  justify-content: space-between;
+}
+.MobileHeader_left {
+  display: flex;
+  gap: 14px;
+}
+.Header_image {
+  width: 150px;
+}
+.MobileHeader_search {
+  display: flex;
+  gap: 10px;
+}
+.header_btn {
+  background: #d9232d 0% 0% no-repeat padding-box;
+  text-align: center;
+  font: normal normal 600 14px/17px Rubik;
+  letter-spacing: 0px;
+  color: #ffffff;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+@media (min-width:721px) {
+    .MobileHeader_container{
+        display: none;
+    }
+}
